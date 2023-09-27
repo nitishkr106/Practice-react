@@ -11,6 +11,7 @@ import CustomHook from "./CustomHook";
 import CustomHook2 from "./CustomHook2";
 import AxiosTut from "./AxiosTut";
 import AxiosPost from "./AxiosPost";
+import UpdateanDeleteax from "./UpdateanDeleteax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,5 +26,6 @@ root.render(
     <CustomHook2 />
     <AxiosTut />
     <AxiosPost />
+    <UpdateanDeleteax />
   </React.StrictMode>
 );

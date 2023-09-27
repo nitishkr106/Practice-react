@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+// CODE OF PUT REQUEST FROM AXIOS
 const AxiosTut = () => {
   const [userData, setData] = useState([]); // yeha array form me h bcz data arrray form mr h
   useEffect(() => {
@@ -11,8 +11,8 @@ const AxiosTut = () => {
   return (
     <div>
       <hr />
-      <h1>Axios</h1>
-      <h3>Fetching data using API</h3>
+      <h1>Axios </h1>
+      <h3>Fetching data using API : GET request</h3>
       {userData.map((data) => {
         return <div>{data.name}</div>;
       })}
